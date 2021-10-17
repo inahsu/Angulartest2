@@ -28,8 +28,7 @@
             ],
             "extractCss": true,
             "styles": [
-              "src/style/style1.scss",
-              
+              "src/styles.css",
               {
                 "input": "src/style/style1.scss",
                 "bundleName": "style1",

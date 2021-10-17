@@ -12,11 +12,4 @@ export class TabComponent {
   constructor() {
 
   }
-
-
-  click() {
-
-  }
-
-
 }
