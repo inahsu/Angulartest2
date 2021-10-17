@@ -26,8 +26,25 @@
               "src/favicon.ico",
               "src/assets"
             ],
+            "extractCss": true,
             "styles": [
-              "src/styles.css"
+              "src/style/style1.scss",
+              
+              {
+                "input": "src/style/style1.scss",
+                "bundleName": "style1",
+                "inject": false
+              },
+              {
+                "input": "src/style/style2.scss",
+                "bundleName": "style2",
+                "inject": false
+              },
+              {
+                "input": "src/style/style3.scss",
+                "bundleName": "style3",
+                "inject": false
+              }
             ],
             "scripts": []
           },
