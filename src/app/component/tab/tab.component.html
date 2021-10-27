@@ -1,17 +1,34 @@
 <div class="tab">
     <div class="row">
-        <button class="action py-2">section1</button>
-        <div class="section">
-            <div class="item pt-0">hello1</div>
-            <div class="item pt-0">hello2</div>
-            <div class="item pt-0">hello3</div>
+        <div class="col-1" [style.width]="sideBarSize">
+            <i class="bi bi-gear" (click)="changeSize()"></i>左邊欄位....................
         </div>
-        <button class="action py-2">section2</button>
-        <div class="section">
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, dolorum ratione. Aut, officiis obcaecati. Facere, eos excepturi maxime repudiandae aliquid, accusantium doloribus facilis cupiditate, sit ratione reiciendis blanditiis optio natus.
-            </p>
+        <div class="col">
+            <button class="action py-2">section1</button>
+            <div class="section">
+                <div class="item pt-0">hello1</div>
+                <div class="item pt-0">hello2</div>
+                <div class="item pt-0">hello3</div>
+            </div>
+            <button class="action py-2">section2</button>
+            <div class="section">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, dolorum ratione. Aut, officiis
+                    obcaecati. Facere, eos excepturi maxime repudiandae aliquid, accusantium doloribus facilis
+                    cupiditate, sit ratione reiciendis blanditiis optio natus.
+                </p>
+            </div>
+            <button class="action py-2">section3</button>
+            <div class="section">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, dolorum ratione. Aut, officiis
+                    obcaecati. Facere, eos excepturi maxime repudiandae aliquid, accusantium doloribus facilis
+                    cupiditate, sit ratione reiciendis blanditiis optio natus.
+                </p>
+            </div>
+            <app-section></app-section>
         </div>
+<<<<<<< HEAD
         <button class="action py-2">section3</button>
         <div class="section">
             <p>
@@ -22,3 +39,7 @@
     </div>
     <div class="row" app-section></div>
 </div>
+=======
+    </div>
+</div>
+>>>>>>> 186ef95ddbc4fe8df5e3556490a578527f7a71c2
