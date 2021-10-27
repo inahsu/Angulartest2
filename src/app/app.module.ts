@@ -8,6 +8,7 @@ import { HeadComponent } from './component/head/head.component';
 import { TabComponent } from './component/tab/tab.component';
 import { SectionComponent } from './component/section/section.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
